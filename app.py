@@ -25,7 +25,7 @@ collection.add(
     documents=documents,
     metadatas=metadatas,
     ids=ids
-)
+) 
 
 results = collection.query(
     query_texts=["Which vehicle has a cost center equal to 991? return only the vehicle"],
